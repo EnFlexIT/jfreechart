@@ -136,7 +136,7 @@
 						<Bundle-Version>${project.version}</Bundle-Version>
 						<Bundle-Vendor>JFree.org</Bundle-Vendor>
 						<!-- Include and export all packages under the package jade and fipa -->
-						<Export-Package>${project.groupId}.*;version=!;-noimport:=true</Export-Package>
+						<Export-Package>org.jfree.*;version=!;-noimport:=true</Export-Package>
 						<Import-Package>!*</Import-Package>
 						<!--
 		              Include the Jars of the dependencies stated in this pom under lib/dependency
