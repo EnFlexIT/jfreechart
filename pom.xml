@@ -154,8 +154,8 @@
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.4.0</version>
                 <configuration>
-                    <linksource>true</linksource>
                     <source>11</source>
+                    <linksource>true</linksource>
                     <docfilessubdirs>true</docfilessubdirs>
                 </configuration>
             </plugin>
@@ -248,8 +248,9 @@
                         <artifactId>maven-javadoc-plugin</artifactId>
                         <version>3.3.1</version>
                         <configuration>
-                            <docfilessubdirs/>
                             <linksource>true</linksource>
+							<docfilessubdirs>true</docfilessubdirs>
+                        	<failOnError>false</failOnError>
                         </configuration>
                         <executions>
                             <execution>
