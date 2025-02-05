@@ -3,9 +3,9 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <name>JFreeChart</name>
-    <artifactId>de.enflexit</artifactId>
-    <groupId>org.jfree</groupId>
+    <name>JFreeChart as OSGI-bundle</name>
+    <artifactId>jfreechart</artifactId>
+    <groupId>de.enflexit</groupId>
     <version>1.5.6-SNAPSHOT</version>
     <packaging>jar</packaging>
 
