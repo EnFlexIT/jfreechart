@@ -6,7 +6,7 @@
     <name>JFreeChart as OSGI-bundle</name>
     <artifactId>jfreechart</artifactId>
     <groupId>de.enflexit</groupId>
-    <version>1.5.6-SNAPSHOT</version>
+    <version>1.5.6</version>
     <packaging>jar</packaging>
 
     <organization>
